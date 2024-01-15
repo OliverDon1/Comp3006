@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./bookPage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <main>
+        <div class="Page">
+            <div>Create A New Account</div>
+            <input type="text" placeholder="Enter New Username" id="usernameInput">
+            <input type="text" placeholder="Enter New Password" id="passwordInput">
+            <button id="saveButton">Save New User</button>
+            <button id = "backButton">Back To Login Page</button>
+            <div id="message"></div>
+        </div>
+        <script src="newAccount.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    </main>
+  </body>
+</html>

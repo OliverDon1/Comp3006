@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./loginStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+        <div id="loginBox">
+            <h1>Login</h1>
+            <input type="text" placeholder="Username" id="loginUsername" required>
+            <input type="password" placeholder="Password" id="loginPassword" required>
+            <button id="loginButton">Login</button>
+            <button id="createAccountButton">Create A New Account</button>
+        </div>
+
+        <script type="module" src="loginScript.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    </main>
+  </body>
+</html>

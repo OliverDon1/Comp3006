@@ -1,0 +1,23 @@
+.Page{
+    position: relative;
+}
+#bookListTop{
+    margin: 5rem;
+    width: 25%;
+    border: 3px solid green;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    right: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.book {
+    border: 1px solid #000;
+    margin-bottom: 10px; 
+    padding: 10px;
+}
