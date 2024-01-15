@@ -28,12 +28,17 @@ document.addEventListener("DOMContentLoaded", async function () {
                 }
     
             }
-            if(newUsername == undefined){
+            console.log(newUsername);
+            if(newUsername === ""){
                 messageDiv.innerHTML = "Unable To Create Account : Username Box Empty"
                 messageDiv.style.color = "red";
             }
-            if(newPassword == undefined){
+            else if(newPassword === ""){
                 messageDiv.innerHTML = "Unable To Create Account : Password Box Empty"
+                messageDiv.style.color = "red";
+            }
+            else if(newPassword.includes(" ")){
+                messageDiv.innerHTML = "Unable To Create Account : Password Contains A Space"
                 messageDiv.style.color = "red";
             }
             else{
